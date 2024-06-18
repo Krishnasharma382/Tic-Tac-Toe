@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* using coolors website to give background color */
+body {
+    background-color: #93E1D8 ;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.game
+{
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5vmin;
+}
+.Box
+{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: #98727e;
+    background-color: beige;
+}
+
+#reset-btn
+{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #FFA69E;
+    border-radius: 1.5rem;
+}
+
+#new-btn
+{
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #FFA69E;
+    border-radius: 1.5rem;
+    justify-content: space-between;
+}
+
+#msg
+{
+    color: rgb(139, 139, 94) ;
+    height: 12vmin;
+    font-size: 8vmin;
+}
+
+.msg-container
+{
+    height: 110vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+
+}
+
+.hide
+{
+    display: none;
+}
